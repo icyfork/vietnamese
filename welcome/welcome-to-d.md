@@ -1,15 +1,16 @@
-# Welcome to D
+# Hoan nghênh bạn đến với D
 
-Welcome to the interactive tour of the *D Programming language*.
+Mừng bạn dạo chơi tìm hiểu về *ngôn ngữ lập trình D*.
 
 {{#dmanmobile}}
 
-The tour gives an overview of this __powerful__ and __expressive__
-language which compiles directly to __efficient__, __native__ machine code.
+Chuyến dạo chơi này giúp bạn hiểu sơ lược về __sức mạnh__
+và __sự truyền cảm__ của ngôn ngữ *D* với khả năng dịch trực tiếp
+mã nguồn sang __mã máy__ __hiệu quả__.
 
 {{/dmanmobile}}
 
-### What is D?
+### D là gì?
 
 D is the culmination of _decades of experience implementing compilers_
 for many diverse languages and has a unique set of features:
@@ -43,10 +44,10 @@ To navigate this tour, either use the "`<` previous" and "next `>`" links at the
 bottom (or left and right arrow keys), or else go straight to particular sections
 using the menus at the top.
 
-### Contributing
+### Đóng góp
 
-This tour is [open source](https://github.com/dlang-tour)
-and we welcome pull requests making this tour even better.
+Tài liệu dạo đầu này được tổ chức bởi [https://github.com/dlang-tour](https://github.com/dlang-tour)
+và chúng tôi luôn hoan nghênh bạn đóng góp để nó tốt hơn.
 
 ## {SourceCode}
 
@@ -57,19 +58,18 @@ import std.range;
 
 void main()
 {
-    // Let's get going!
-    writeln("Hello World!");
+    // Nào bắt đầu!
+    writeln("Chào thế giới!");
 
-    // An example for experienced programmers:
-    // Take three arrays, and without allocating
-    // any new memory, sort across all the
-    // arrays inplace
+    // Ví dụ dành cho lập trình viên kinh nghiệm:
+    // Tạo ra ba mảng số và sắp xếp chúng theo thứ tự tự nhiên
+    // mà không cần yêu cầu thêm phần bộ nhớ nào
     int[] arr1 = [4, 9, 7];
     int[] arr2 = [5, 2, 1, 10];
     int[] arr3 = [6, 8, 3];
     sort(chain(arr1, arr2, arr3));
     writefln("%s\n%s\n%s\n", arr1, arr2, arr3);
-    // To learn more about this example, see the
-    // "Range algorithms" page under "Gems"
+    // Để hiểu hơn về ví dụ này, bạn hãy tham khảo phần
+    // "thuật toán đoạn" (Range algorithms) ở phần "Gems"
 }
 ```

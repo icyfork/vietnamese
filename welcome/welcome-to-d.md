@@ -11,24 +11,28 @@ của ngôn ngữ *D* với khả năng *biên dịch* trực tiếp mã nguồn
 
 ### D là gì?
 
-D kết tinh hàng thập kỷ kinh nghiệm phát triển trình biên dịch từ
+D kết tinh hàng thập kỷ kinh nghiệm phát triển trình biên dịch ở
 các ngôn ngữ khác nhau. D có điều đặc biệt như
 
 {{#dmandesktop}}
 
-- cấu trúc cấp cao với khả năng tuyệt vời để  mô hình hóa
-- _hiệu năng cao_, khả năng biên dịch
+- cấu trúc cấp cao với khả năng mô hình hóa tuyệt vời
+- _hiệu năng cao_, ngôn ngữ biên dịch
 - xác định kiểu tĩnh (static typing)
 - giao tiếp trực tiếp với API của hệ điều hành hay phần cứng
 - khả năng biên dịch _nhanh chóng_ mã nguồn
 - một bộ phận của D với khả năng chống lỗi liên quan tới bộ nhớ (SafeD, memory-safe)
 - mã nguồn _dễ hiểu_, _dễ bảo trì_
-- giúp người học chiếm lĩnh từ từ (nhờ vào cú pháp giống C, tương tự với Java và vài ngôn ngữ khác)
+- giúp người học chiếm lĩnh từng bước (cú pháp giống C, tương tự với Java và vài ngôn ngữ khác)
 - tương thích với giao diện ứng dụng C đã biên dịch thành mã máy
 - tương thích _(có giới hạn)_ với giao diện ứng dụng C++ đã biên dịch thành mã máy
-- triển khai nhiều ý tưởng (diễn dịch tường minh - imperative, cấu trúc - structured, hướng đối tượng - object oriented,
-    generic, lập trình hàm thuần túy - functional programming purity, và ở mức mã máy - assembly)
-- có sẵn bộ dò lỗi (hợp đồng _(contracts)_, kiểm định theo đơn vị _(unittest)_)
+- triển khai nhiều ý niệm (mệnh lệnh theo thứ tự - imperative,
+    cấu trúc - structured,
+    hướng đối tượng - object oriented,
+    đa hình tham số  - generic,
+    lập trình hàm thuần túy - functional programming purity,
+    và ở mức mã máy - assembly)
+- có sẵn bộ dò lỗi (hợp đồng _(contracts)_, kiểm định mức đơn vị _(unittest)_)
 
 ... và thêm nhiều  [tính năng khác](http://dlang.org/overview.html).
 
@@ -46,7 +50,7 @@ các mục cần xem ở menu phía trên.
 ### Đóng góp
 
 Bạn luôn có thể hoàn thiện tài liệu dạo đầu này bằng cách
-tham gia vào tổ chức [https://github.com/dlang-tour](https://github.com/dlang-tour)
+tham gia vào dự án [https://github.com/dlang-tour](https://github.com/dlang-tour)
 trên Github.
 
 ## {SourceCode}
